@@ -1,8 +1,8 @@
-class Base {
+class A {
 
     int count = 1000;
 
-    Base() {
+    A() {
         base();
     }
 
@@ -12,7 +12,7 @@ class Base {
 
 }
 
-public class ConstructorExamples extends Base  {
+public class B extends A {
 
     int count = 2000;
 
@@ -24,6 +24,6 @@ public class ConstructorExamples extends Base  {
     }
 
     public static void main(String[] args) {
-        new Base();
+        new B();
     }
 }
